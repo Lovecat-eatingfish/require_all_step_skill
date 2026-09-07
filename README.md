@@ -13,8 +13,6 @@ Claude Code 自定义 Skill 集合，用于提升 AI 辅助开发的流程规范
 │       ├── complexity-template.md     # 复杂度判断模板
 │       ├── delivery-template.md       # 交付总结模板
 │       └── requirement-card-template.md # 需求理解卡片模板
-├── grill-me/                   # 需求压力面试 Skill
-│   └── SKILL.md
 └── SKILL_DESIGN.md             # feature-delivery 的设计文档
 ```
 
@@ -35,12 +33,6 @@ Claude Code 自定义 Skill 集合，用于提升 AI 辅助开发的流程规范
 
 **测试策略**：接口/函数测试优先，静态验证补充，前端视觉交给人
 
-### grill-me
-
-需求压力面试 Skill。对需求或方案进行深度提问，发现遗漏、矛盾和边界情况。
-
-**触发方式**：用户手动 `/grill-me` 触发
-
 ## 安装使用
 
 将 skill 目录复制到你的 Claude Code skills 目录：
@@ -57,7 +49,6 @@ cp -r feature-delivery .claude/skills/
 
 ```
 /feature-delivery 帮我实现一个用户注册功能
-/grill-me 这个需求方案有什么问题
 ```
 
 ## 设计原则
