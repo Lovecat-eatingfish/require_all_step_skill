@@ -10,6 +10,7 @@ Claude Code 自定义 Skill 集合，用于提升 AI 辅助开发的流程规范
 │   ├── SKILL.md                # 主文件（流程定义 + 规则）
 │   └── references/             # 按需加载的模板文件
 │       ├── alignment-template.md      # 需求对齐确认单模板
+│       ├── code-review-template.md    # 代码审查模板
 │       ├── complexity-template.md     # 复杂度判断模板
 │       ├── delivery-template.md       # 交付总结模板
 │       └── requirement-card-template.md # 需求理解卡片模板
@@ -22,7 +23,7 @@ Claude Code 自定义 Skill 集合，用于提升 AI 辅助开发的流程规范
 
 需求驱动开发全流程 Skill。当用户提出功能需求、bug 修复、PRD 开发等需要写代码实现的请求时触发。
 
-**流程**：读代码 → 读需求 → 对齐核心问题 → 开发 → 测试交付
+**流程**：读代码 → 读需求 → 对齐核心问题 → 开发 → 代码审查 → 测试交付
 
 **核心约束（Iron Law）**：
 1. 对齐前禁止写代码
